@@ -1,0 +1,2155 @@
+@prefix :        <https://lithits.web.ox.ac.uk/> .
+@prefix bibo:    <http://purl.org/ontology/bibo/> .
+@prefix dbpedia: <https://www.dbpedia.org/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://schema.org/> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+:2020103  rdf:type        bibo:Document ;
+        dc:creator        "Margaret Cavendish" ;
+        dc:identifier     "2020103" ;
+        dc:title          "The Blazing World" ;
+        :curatorInitials  "AP" .
+
+:2020095  rdf:type           bibo:Document ;
+        dc:creator           "Elizabeth Keckley" ;
+        dc:identifier        "2020095" ;
+        dc:title             "Behind the Scenes: Or, Thirty Years a Slave and Four Years in the White House " ;
+        dc:type              "Life-Writing" ;
+        bibo:isbn            "12" ;
+        schema:keywords      "dress, work, employment" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" ;
+        :placeInText         "full chapter" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "This fifth chapter in the autobiography of Elizabeth Keckley, who had endured a brutal period of enslavement in her earlier life, depicts the moment when she is first introduced to the Mary Todd Lincoln, First Lady. After purchasing her own and her son's freedom in St. Louis, Missouri in 1855, Keckley has moved to Washington, D.C. and established her reputation as a modiste, or seamstress, with the wives of many powerful politicians as her clients.  " .
+
+:2020074  rdf:type           bibo:Document ;
+        dc:creator           "DH Lawrence" ;
+        dc:identifier        "2020074" ;
+        dc:title             "Sons and Lovers" ;
+        dc:type              "Novel" ;
+        schema:keywords      "children, countryside, alcohol, families" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The troubled Morel family has four children: Annie, William, Arthur, and the protagonist of the novel, Paul. " ;
+        :textInTranslation   "No" .
+
+:2020053  rdf:type           bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "2020053" ;
+        dc:title             "The Wings of the Dove" ;
+        dc:type              "Novel" ;
+        schema:keywords      "Art, London, paintings, galleries" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Millie Theale visits the National Gallery in London for the first time. While among the paintings and her own rich reverie, she is spied by the handsome Merton Densher." ;
+        :textInTranslation   "No" .
+
+:20180188  rdf:type          bibo:Document ;
+        dc:creator           "F. Scott Fitzgerald" ;
+        dc:identifier        "20180188" ;
+        dc:title             "Four Fists" ;
+        schema:duration      "4" ;
+        schema:keywords      "Fairytale" , "Life Writing" , "ambition" , "strangers" , "class" , "regret" ;
+        :durationNormalised  "5" .
+
+:2020032  rdf:type     bibo:Document ;
+        dc:creator     "Henrik Ibsen" ;
+        dc:identifier  "2020032" ;
+        dc:title       "Ghosts" .
+
+:20180167  rdf:type          bibo:Document ;
+        dc:creator           "Paul Laurence Dunbar" ;
+        dc:identifier        "20180167" ;
+        dc:title             "The Heart of Happy Hollow" ;
+        schema:duration      "6" ;
+        schema:keywords      "escape" , "work" , "Realism" , "employment" , "ambition" , "identity" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020011  rdf:type     bibo:Document ;
+        dc:creator     "Ruben Dario" ;
+        dc:identifier  "2020011" ;
+        dc:title       "Niebla (Mist)" .
+
+:20180146  rdf:type          bibo:Document ;
+        dc:creator           "Mary Shelley" ;
+        dc:identifier        "20180146" ;
+        dc:title             "Frankenstein" ;
+        schema:duration      "9" ;
+        schema:keywords      "Science Fiction" , "Gothic" , "nature" , "fear" , "monster" , "machines" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:20180125  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "20180125" ;
+        dc:title             "The Woman at the Store" ;
+        schema:duration      "5" ;
+        schema:keywords      "childhood" , "Gothic " , "painting" , "strangers" , "weather" , "night " ;
+        :durationNormalised  "5" .
+
+:20180104  rdf:type          bibo:Document ;
+        dc:creator           "Charles Dickens" ;
+        dc:identifier        "20180104" ;
+        dc:title             "Great Expectations" ;
+        dc:type              "Novel" ;
+        schema:duration      "6" ;
+        schema:keywords      "peril" , "childhood" , "food" , "Adventure" , "escape" ;
+        :curatorInitials     "KSB" ;
+        :durationNormalised  "10" ;
+        :othersFromAuthor    "y" .
+
+:2020132  rdf:type        bibo:Document ;
+        dc:creator        "Amelia E. Johnson" ;
+        dc:identifier     "2020132" ;
+        dc:title          "The Hazeley Family" ;
+        dc:type           "Novel" ;
+        :curatorInitials  "AP" ;
+        :placeInText      "full chapter" ;
+        :startEnd         "n/a" ;
+        :storySoFar       "Flora has been brought up by her aunt, Mrs Graham since the age of five. Now aged sixteen, she is returning to her mother's home after her aunt's death, and she tries to settle to her new life. " .
+
+:2020111  rdf:type        bibo:Document ;
+        dc:creator        "Charles Darwin" ;
+        dc:identifier     "2020111" ;
+        dc:title          "Voyage" ;
+        :curatorInitials  "AP" .
+
+:2020082  rdf:type           bibo:Document ;
+        dc:creator           "Lewis Carroll" ;
+        dc:identifier        "2020082" ;
+        dc:title             "Alice's Adventures in Wonderland" ;
+        dc:type              "Novel" ;
+        schema:keywords      "houses, animals, children, cats, fantasy" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Seven-year-old Alice has fallen down a rabbit hole into a fantastical world filled with marvellous scenery." ;
+        :textInTranslation   "No" .
+
+:2020061  rdf:type           bibo:Document ;
+        dc:creator           "Honoré de Balzac" ;
+        dc:identifier        "2020061" ;
+        dc:title             "Colonel Chabert" ;
+        dc:type              "Novel" ;
+        schema:keywords      "war, military, names, lawyers, Paris" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "A man arrives at a lawyer's office claiming to be the renowned -- and importantly, deceased -- Colonel Chabert." ;
+        :textInTranslation   "Yes" .
+
+:20180196  rdf:type          bibo:Document ;
+        dc:creator           "Frances Hodgson Burnett" ;
+        dc:identifier        "20180196" ;
+        dc:title             "A Secret Garden" ;
+        schema:duration      "10" ;
+        schema:keywords      "Adventure" , "illness" , "death" , "family" , "childhood" , "peril" ;
+        :durationNormalised  "10" .
+
+:2020040  rdf:type     bibo:Document ;
+        dc:creator     "Ford Madox Ford" ;
+        dc:identifier  "2020040" ;
+        dc:title       "Some Do Not (Parades End)" .
+
+:20180175  rdf:type          bibo:Document ;
+        dc:creator           "George Egerton" ;
+        dc:identifier        "20180175" ;
+        dc:title             "A Little Grey Glove" ;
+        schema:duration      "25" ;
+        schema:keywords      "Romance" , "love" , "regret" , "strangers" , "flirtation" , "marriage; beauty" ;
+        :durationNormalised  "25" .
+
+:2020019  rdf:type     bibo:Document ;
+        dc:creator     "Mary Shelley" ;
+        dc:identifier  "2020019" ;
+        dc:title       "Frankenstein" .
+
+:20180154  rdf:type          bibo:Document ;
+        dc:creator           "Bram Stoker" ;
+        dc:identifier        "20180154" ;
+        dc:title             "Dracula" ;
+        dc:type              "Novel" ;
+        schema:duration      "23" ;
+        schema:keywords      "peril" , "monster" , "journey" , "Gothic" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "25" ;
+        :othersFromAuthor    "no" .
+
+:20180133  rdf:type          bibo:Document ;
+        dc:creator           "H. G. Wells" ;
+        dc:identifier        "20180133" ;
+        dc:title             "The Sea Raiders" ;
+        schema:duration      "9" ;
+        schema:keywords      "animals" , "monster" , "Science Fiction" , "escape" , "sea" ;
+        :durationNormalised  "10" .
+
+:20180112  rdf:type          bibo:Document ;
+        dc:creator           "Joseph Conrad" ;
+        dc:identifier        "20180112" ;
+        dc:title             "The Secret Agent" ;
+        schema:duration      "24" ;
+        schema:keywords      "Satire" , "painting" , "class" , "Realism" , "family" , "marriage; language" ;
+        :durationNormalised  "25" .
+
+
+:2020119  rdf:type        bibo:Document ;
+        dc:creator        "Thomas Malory" ;
+        dc:identifier     "2020119" ;
+        dc:title          "Le Morte D'Arthur" ;
+        :curatorInitials  "AP" .
+
+:2020090  rdf:type           bibo:Document ;
+        dc:creator           "Grossmith George and Weedon" ;
+        dc:identifier        "2020090" ;
+        dc:title             "The Diary of a Nobody" ;
+        dc:type              "Novel" ;
+        schema:keywords      "paranormal, children, humour, diaries, London" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "In this satire of tell-all autobiographies -- written in the nineteenth century - a series of fictional diary entries recounts the affairs of one Mr Pooter whose aggrandised sense of self-importance competes with the dullness of his affairs. In this chapter, Pooter recounts a series of droll incidents, including a newfound fashion for the paranormal." ;
+        :textInTranslation   "No" .
+
+:2020069  rdf:type           bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "2020069" ;
+        dc:title             "The Portrait of a Lady" ;
+        dc:type              "Novel" ;
+        schema:keywords      "Tea, lawns, the Thames, telegrams" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "20" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The novel opens with news arriving -- in the form of a baffling telegraph -- during teatime at the august English manor, Gardencourt." ;
+        :textInTranslation   "No" .
+
+:2020048  rdf:type          bibo:Document ;
+        dc:creator          "Charlotte Bronte" ;
+        dc:identifier       "2020048" ;
+        dc:title            "Villette (title spelled incorrectly)" ;
+        dc:type             "Novel" ;
+        schema:keywords     "opium, dreams, medicine, Belgium" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Passage" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "Lucy Snowe teaches English at a boarding school for girls in the city of Villette, Belgium. Little known to her, she is being cunningly manipulated by a web of scheming relations, which is headed by the headmistress of the school, Madame Beck. This passage opens immediate after Madame Beck has provided Lucy with what she believes to be medicine.  " ;
+        :textInTranslation  "No" .
+
+:20180183  rdf:type          bibo:Document ;
+        dc:creator           "Thomas Hardy" ;
+        dc:identifier        "20180183" ;
+        dc:title             "Two on a Tower " ;
+        schema:duration      "14" ;
+        schema:keywords      "ambition" , "obsession" , "nature" , "Romance" , "night" , "monster " ;
+        :durationNormalised  "15" .
+
+:2020027  rdf:type     bibo:Document ;
+        dc:creator     "George Eliot" ;
+        dc:identifier  "2020027" ;
+        dc:title       "The Lifted Veil" .
+
+:20180162  rdf:type          bibo:Document ;
+        dc:creator           "Emily Brontë" ;
+        dc:identifier        "20180162" ;
+        dc:title             "Wuthering Heights" ;
+        schema:duration      "9" ;
+        schema:keywords      "food" , "arrival" , "Gothic" , "family" , "animals; strangers" , "weather" ;
+        :durationNormalised  "10" .
+
+:2020006  rdf:type     bibo:Document ;
+        dc:creator     "Miguel de Cervantes" ;
+        dc:identifier  "2020006" ;
+        dc:title       "Don Quixote" .
+
+:20180141  rdf:type          bibo:Document ;
+        dc:creator           "Fannie Burney" ;
+        dc:identifier        "20180141" ;
+        dc:title             "The Wanderer" ;
+        schema:duration      "9.5" ;
+        schema:keywords      "Adventure" , "strangers" , "escape " , "identity" ;
+        :durationNormalised  "10" .
+
+:20180120  rdf:type          bibo:Document ;
+        dc:creator           "Charles Dickens" ;
+        dc:identifier        "20180120" ;
+        dc:title             "The Mystery of Edwin Drood" ;
+        dc:type              "Novel" ;
+        schema:duration      "9" ;
+        schema:keywords      "dreams" , "Gothic" , "Horror" , "ghosts" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :othersFromAuthor    "y" .
+
+:2020127  rdf:type           bibo:Document ;
+        dc:creator           "Alice Moore Dunbar Nelson" ;
+        dc:identifier        "2020127" ;
+        dc:title             "Violets" ;
+        bibo:isbn            "3" ;
+        schema:duration      "5" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" .
+
+:2020106  rdf:type        bibo:Document ;
+        dc:creator        "Olive Schreiner" ;
+        dc:identifier     "2020106" ;
+        dc:title          "The Sunlight Lay" ;
+        :curatorInitials  "AP" .
+
+:2020098  rdf:type        bibo:Document ;
+        dc:creator        "Mary Prince" ;
+        dc:identifier     "2020098" ;
+        dc:title          "The History of Mary Prince" ;
+        dc:type           "Life-Writing" ;
+        schema:keywords   "marriage, work, slavery, happiness" ;
+        :curatorInitials  "AP" ;
+        :placeInText      "chapter 4, excerpt" ;
+        :startEnd         "\"The way in which I made my money was this. […] no free man can marry a slave woman.\"" ;
+        :storySoFar       "Mary Prince, who has spent her life enslaved in Antigua, explains the work she undertook to strive for her freedom, and how she met the man that she would later marry." .
+
+:2020077  rdf:type           bibo:Document ;
+        dc:creator           "Marcel Proust" ;
+        dc:identifier        "2020077" ;
+        dc:title             "Swann's Way" ;
+        dc:type              "Novel" ;
+        schema:keywords      "love, flirtation, courtship, society, tea, Ameriacans, opera" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The amorous and perpetual bachelor Charles Swann catches the eye of women from across French society, from cooks to princesses. In this passage, the nameless narrator recounts how Swann has met his match -- in more ways than one -- in the coqeuttish Odette de Crécy." ;
+        :textInTranslation   "Yes" .
+
+:2020056  rdf:type           bibo:Document ;
+        dc:creator           "Charles Dickens" ;
+        dc:identifier        "2020056" ;
+        dc:title             "The Mystery of Edwin Drood" ;
+        dc:type              "Novel" ;
+        schema:keywords      "exoticism, addiction, opium, mystery" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "5" ;
+        :placeInText         "Beginning" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "In the opening scene of this novel, Dickens narrates the discombobulated state of a mysterious person who has taken opium. " ;
+        :textInTranslation   "No" .
+
+:20180191  rdf:type          bibo:Document ;
+        dc:creator           "James Joyce" ;
+        dc:identifier        "20180191" ;
+        dc:title             "The Sisters" ;
+        schema:duration      "15" ;
+        schema:keywords      "death" , "Realism" , "illness" , "grief" , "mental disorder" ;
+        :durationNormalised  "15" .
+
+:2020035  rdf:type     bibo:Document ;
+        dc:creator     "Katherine Mansfield" ;
+        dc:identifier  "2020035" ;
+        dc:title       "The Kidnapping of Pearl Button" .
+
+:20180170  rdf:type          bibo:Document ;
+        dc:creator           "Louisa May Alcott" ;
+        dc:identifier        "20180170" ;
+        dc:title             "Little Women" ;
+        schema:duration      "5" ;
+        schema:keywords      "childhood" , "family" , "Realism" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" .
+
+:2020014  rdf:type     bibo:Document ;
+        dc:creator     "Emily Bronte" ;
+        dc:identifier  "2020014" ;
+        dc:title       "Wuthering Heights 1" .
+
+:20180149  rdf:type          bibo:Document ;
+        dc:creator           "Oscar Wilde" ;
+        dc:identifier        "20180149" ;
+        dc:title             "The Picture of Dorian Gray" ;
+        schema:duration      "25" ;
+        schema:keywords      "flirtation" , "beauty " , "painting" , "Gothic" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "25" .
+
+:20180128  rdf:type          bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "20180128" ;
+        dc:title             "The Golden Bowl" ;
+        schema:duration      "12" ;
+        schema:keywords      "regret" , "Realism" , "love" , "marriage" , "Romance" ;
+        :durationNormalised  "15" .
+
+:20180107  rdf:type          bibo:Document ;
+        dc:creator           "Virginia Woolf" ;
+        dc:identifier        "20180107" ;
+        dc:title             "Lappin and Lapinova" ;
+        schema:duration      "16" ;
+        schema:keywords      "animals" , "love" , "dreams" , "Fairytale" , "marriage" , "class " ;
+        :durationNormalised  "20" .
+
+:2020135  rdf:type        bibo:Document ;
+        dc:creator        "Saki (H. M. Munro)" ;
+        dc:identifier     "2020135" ;
+        dc:title          "Sredni Vashtar" ;
+        dc:type           "Short story" ;
+        :curatorInitials  "AP" ;
+        :placeInText      "full story" ;
+        :startEnd         "n/a" ;
+        :storySoFar       "Conradin lives a buttoned down and protected life, tightly controlled by his Aunt. His imagination, on the other hand, runs wild, savage and free. " .
+
+:2020114  rdf:type        bibo:Document ;
+        dc:creator        "Mona Caird" ;
+        dc:identifier     "2020114" ;
+        dc:title          "The Great Wave" ;
+        :curatorInitials  "AP" .
+
+:2020085  rdf:type           bibo:Document ;
+        dc:creator           "Thomas Hardy" ;
+        dc:identifier        "2020085" ;
+        dc:title             "Jude the Obscure" ;
+        dc:type              "Novel" ;
+        schema:keywords      "beauty, university, escape, employment, arrival" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "The eponymous Jude hails from a village in Southern England where he works in a bakery. His dream is to devote himself to study at the ancient university, Christminster. Despite his dedication, other callings seem to ensnare his plans at every turn. " ;
+        :textInTranslation   "No" .
+
+:2020064  rdf:type           bibo:Document ;
+        dc:creator           "Charlotte Brontë" ;
+        dc:identifier        "2020064" ;
+        dc:title             "Villette" ;
+        dc:type              "Novel" ;
+        schema:keywords      "alone, crying, London, work, housekeepers" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Lucy Snowe, orphaned and alone in the world, has been left jobless after the death of the woman she cared for, Miss Marchmont. Now, she seems to have no foothold left in the world -- or at the very least, in England." ;
+        :textInTranslation   "No" .
+
+:20180199  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "20180199" ;
+        dc:title             "Bliss" ;
+        schema:duration      "9" ;
+        schema:keywords      "arrival" , "Realism" , "beauty" , "family" , "marriage" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020043  rdf:type          bibo:Document ;
+        dc:creator          "JM Barrie" ;
+        dc:identifier       "2020043" ;
+        dc:title            "On Running after at Hat" ;
+        dc:type             "Sketch" ;
+        schema:keywords     "hats, humour" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Full text" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "In this light sketch, Barrie captures all of the frustrations of chasing a hat on a windy street." ;
+        :textInTranslation  "No" .
+
+:20180178  rdf:type          bibo:Document ;
+        dc:creator           "Sarah Grand" ;
+        dc:identifier        "20180178" ;
+        dc:title             "Ideala" ;
+        schema:duration      "6" ;
+        schema:keywords      "identity" , "Realism" , "strangers" , "language" , "Humour" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020022  rdf:type     bibo:Document ;
+        dc:creator     "Olive Schreiner" ;
+        dc:identifier  "2020022" ;
+        dc:title       "The Story of an African Farm" .
+
+:20180157  rdf:type          bibo:Document ;
+        dc:creator           "Herman Melville" ;
+        dc:identifier        "20180157" ;
+        dc:title             "Bartleby the Scrivener" ;
+        schema:duration      "7" ;
+        schema:keywords      "ambition" , "employment" , "Realism" , "Satire" , "work" ;
+        :durationNormalised  "10" .
+
+:2020001  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020001" ;
+        dc:title             "Middlemarch" ;
+        schema:duration      "6.5" ;
+        :curatorInitials     "MS" ;
+        :durationNormalised  "10" ;
+        :startEnd            "\"Dorothea herself had no dreams of being praised above other women,  […]  and rest in unvisited tombs\"" ;
+        :storySoFar          "The novel’s protagonist, Dorothea Brooke, looks back on her life as a young woman searching for significance. After her unrequited suitor, Sir James Chettam, marries her sister, Celia, Dorothea ultimately marries Will Ladislaw and begins to understand the quiet power of “unhistoric acts." .
+
+:20180136  rdf:type          bibo:Document ;
+        dc:creator           "Charlotte Mew" ;
+        dc:identifier        "20180136" ;
+        dc:title             "Passed" ;
+        schema:duration      "7.5" ;
+        schema:keywords      "Realism" , "class" , "night" , "journey" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" .
+
+:20180115  rdf:type          bibo:Document ;
+        dc:creator           "Charlotte Perkins Gilman" ;
+        dc:identifier        "20180115" ;
+        dc:title             "The Yellow Wall Paper" ;
+        schema:duration      "29" ;
+        schema:keywords      "Gothic" , "ambition" , "marriage" , "mental disorder" , "boredom" ;
+        :curatorInitials     "KSB" ;
+        :durationNormalised  "30" .
+
+:2020122  rdf:type        bibo:Document ;
+        dc:creator        "Aphra Behn" ;
+        dc:identifier     "2020122" ;
+        dc:title          "Oronooko" ;
+        :curatorInitials  "AP" .
+
+:2020101  rdf:type        bibo:Document ;
+        dc:creator        "Tom Redcam" ;
+        dc:identifier     "2020101" ;
+        dc:title          "One Brown Girl, And-" ;
+        :curatorInitials  "AP" .
+
+:2020093  rdf:type           bibo:Document ;
+        dc:creator           "W. E. B. Du Bois" ;
+        dc:identifier        "2020093" ;
+        dc:title             "Of the Coming of John" ;
+        dc:type              "Short Story" ;
+        schema:keywords      "race, orchestra, injustice, America, education, university, New York" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" ;
+        :placeInText         "excerpt" ;
+        :startEnd            "[…] I am coming -- John.\"" ;
+        :storySoFar          "This short story is included in Du Bois's iconic essay collection The Souls of Black Folk (1903), a landmark call for greater awareness of the growing divisiveness and damage that racism was causing in the United States. He used many different genres to explore his topic, including this fable of the tragedies inflicted on John,  young black man born in a State in the South. " .
+
+:2020072  rdf:type           bibo:Document ;
+        dc:creator           "Elizabeth Robins" ;
+        dc:identifier        "2020072" ;
+        dc:title             "The Magnetic North" ;
+        dc:type              "Novel" ;
+        schema:keywords      "birds, houses, camp, wildlife, food" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Preparing for the ferocious winter on the Yukon trail, five men in search of gold -- including \"Mac\" and \"the Boy\" -- begin to build their shelter. They assisted by the local knowledge of Nicholas, a member of a nearby Innuit group. " ;
+        :textInTranslation   "No" .
+
+:2020051  rdf:type           bibo:Document ;
+        dc:creator           "Matthew Lewis" ;
+        dc:identifier        "2020051" ;
+        dc:title             "The Monk" ;
+        dc:type              "Novel" ;
+        schema:keywords      "religion, romance, deceit" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Ambrosio is a celebrated monk in Madrid who has been carrying on a secret affair with Matilda. But -- when this passage opens -- the treacherous Ambrosio has had a change of heart and prefers a new lover, Antonia. Seemingly devoted to him at all costs, Matilda offers to help him gain his new love by offering him black magic in the form of a deal with a beautiful demon. " ;
+        :textInTranslation   "No" .
+
+:20180186  rdf:type          bibo:Document ;
+        dc:creator           "Willa Cather" ;
+        dc:identifier        "20180186" ;
+        dc:title             "O, Pioneers!" ;
+        schema:duration      "16" ;
+        schema:keywords      "cliffhanger; illness; weather; family" , "Realism" , "peril" , "childhood" , "escape" , "animals" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "20" .
+
+:2020030  rdf:type     bibo:Document ;
+        dc:creator     "Oscar Wilde" ;
+        dc:identifier  "2020030" ;
+        dc:title       "The Importance of Being Earnest" .
+
+:20180165  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "20180165" ;
+        dc:title             "Revelations" ;
+        schema:duration      "12" ;
+        schema:keywords      "Realism" , "childhood" , "mental disorder" , "family" , "regret" , "death" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" ;
+        :storySoFar          "An elegant yet nervous woman’s morning unfolds." .
+
+:2020009  rdf:type     bibo:Document ;
+        dc:creator     "Willa Cather" ;
+        dc:identifier  "2020009" ;
+        dc:title       "My Ántonia" .
+
+:20180144  rdf:type          bibo:Document ;
+        dc:creator           "Rudyard Kipling" ;
+        dc:identifier        "20180144" ;
+        dc:title             "The Light that Failed" ;
+        schema:duration      "13" ;
+        schema:keywords      "painting" , "weather" , "Adventure" , "regret" , "night; marriage" , "Romance" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:20180123  rdf:type          bibo:Document ;
+        dc:creator           "Thomas Hardy" ;
+        dc:identifier        "20180123" ;
+        dc:title             "Two on a Tower" ;
+        schema:duration      "11" ;
+        schema:keywords      "nature" , "night" , "flirtation" , "Romance" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" .
+
+:2020151  rdf:type     bibo:Document ;
+        dc:identifier  "2020151" .
+
+:20180102  rdf:type          bibo:Document ;
+        dc:creator           "Alice Moore Dunbar-Nelson" ;
+        dc:identifier        "20180102" ;
+        dc:title             "At Eventide" ;
+        dc:type              "Short Story" ;
+        schema:duration      "6" ;
+        schema:keywords      "ambition" , "night" , "Romance" , "love" , "regret" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" ;
+        :othersFromAuthor    "y" ;
+        :placeInText         "full text" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "A woman waits for the arrival of a man she loves. " .
+
+:2020130  rdf:type        bibo:Document ;
+        dc:creator        "Alice Moore Dunbar Nelson" ;
+        dc:identifier     "2020130" ;
+        dc:title          "Little Miss Sophie" ;
+        :curatorInitials  "AP" .
+
+:2020109  rdf:type        bibo:Document ;
+        dc:creator        "Margery Kempe" ;
+        dc:identifier     "2020109" ;
+        dc:title          "The Book of Margery Kempe" ;
+        :curatorInitials  "AP" .
+
+:2020080  rdf:type           bibo:Document ;
+        dc:creator           "EM Forster" ;
+        dc:identifier        "2020080" ;
+        dc:title             "A Passage to India" ;
+        dc:type              "Novel" ;
+        schema:keywords      "India, tourism, empire" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "5" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The novel's majestic openings sets the scene of the fictional city of Chandrapore in British India, putting special emphasis on some exceptional caves." ;
+        :textInTranslation   "No" .
+
+:2020059  rdf:type           bibo:Document ;
+        dc:creator           "Honoré de Balzac" ;
+        dc:identifier        "2020059" ;
+        dc:title             "Father Goriot" ;
+        dc:type              "Novel" ;
+        schema:keywords      "Paris, houses, boarders, greed" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "In early nineteenth-century Paris, not far from the Latin quarter, the officious Mme. Vauquer runs a boarding-house filled with colourful characters." ;
+        :textInTranslation   "Yes" .
+
+:20180194  rdf:type          bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "20180194" ;
+        dc:title             "Nona Vincent" ;
+        schema:duration      "20" ;
+        schema:keywords      "language " , "flirtation" , "reading" , "ambition" , "Realism" ;
+        :durationNormalised  "20" .
+
+:2020038  rdf:type     bibo:Document ;
+        dc:creator     "Geoffrey Chaucer" ;
+        dc:identifier  "2020038" ;
+        dc:title       "The  Knight's Tale" .
+
+:20180173  rdf:type          bibo:Document ;
+        dc:creator           "Charles Dickens" ;
+        dc:identifier        "20180173" ;
+        dc:title             "A Christmas Carol" ;
+        dc:type              "Novel" ;
+        schema:duration      "6" ;
+        schema:keywords      "death" , "regret" , "work" , "Gothic" , "night" ;
+        :durationNormalised  "10" ;
+        :otherEntries        "Y" ;
+        :othersFromAuthor    "y" .
+
+:2020017  rdf:type     bibo:Document ;
+        dc:creator     "Charles Dickens" ;
+        dc:identifier  "2020017" ;
+        dc:title       "Dombey and Son" .
+
+:20180152  rdf:type          bibo:Document ;
+        dc:creator           "Arthur Conan Doyle" ;
+        dc:identifier        "20180152" ;
+        dc:title             "A Study in Scarlet" ;
+        dc:type              "Novel" ;
+        schema:duration      "12.5" ;
+        schema:keywords      "arrival" , "strangers" , "Adventure" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" ;
+        :othersFromAuthor    "no" ;
+        :placeInText         "Chapter 1" ;
+        :startEnd            "“Dr. Watson, Mr. Sherlock Holmes,”  [...] “I may as well give up the attempt at once.”" ;
+        :storySoFar          "Dr Watson, after running into an old friend named Stamford, has been persuaded to take Stamford's acquaintance, Mr Holmes, as a lodger. " .
+
+:20180131  rdf:type          bibo:Document ;
+        dc:creator           "Edith Wharton" ;
+        dc:identifier        "20180131" ;
+        dc:title             "Roman Fever" ;
+        schema:duration      "8" ;
+        schema:keywords      "illness" , "family" , "Realism" , "childhood" , "love" ;
+        :durationNormalised  "10" .
+
+:20180110  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "20180110" ;
+        dc:title             "The Fly " ;
+        schema:duration      "12.5" ;
+        schema:keywords      "animals" , "death" , "Realism" , "grief" , "family" ;
+        :durationNormalised  "15" .
+
+:2020138  rdf:type           bibo:Document ;
+        dc:creator           "Ford Madox Ford" ;
+        dc:identifier        "2020138" ;
+        dc:title             "Some Do Not (Parades End)" ;
+        dc:type              "Novel" ;
+        bibo:isbn            "17" ;
+        schema:duration      "17" ;
+        schema:keywords      "Germany, holiday, marriage, morality, beauty" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "20" ;
+        :placeInText         "excerpt, chapter 2" ;
+        :startEnd            "\"They were sitting playing bridge  […] only person in Germany who knows how to make tea.'\"" ;
+        :storySoFar          "Mrs Satterthwaite is holidaying expensively in Lobscheid, Germany with a small assortment of friends. Her daughter, Sylvia Tietjens, who has left her husband for another in a string of affairs, arrives to stay with her." .
+
+:2020117  rdf:type        bibo:Document ;
+        dc:creator        "Olaudah Equiano" ;
+        dc:identifier     "2020117" ;
+        dc:title          "An Interesting Narrative" ;
+        :curatorInitials  "AP" .
+
+:2020088  rdf:type           bibo:Document ;
+        dc:creator           "Edith Wharton" ;
+        dc:identifier        "2020088" ;
+        dc:title             "Ethan Frome" ;
+        dc:type              "Novel" ;
+        schema:keywords      "cats, secrets, love, food, houses" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "Ethan Frome lives with and cares for his sickly wife, Zenobia (\"Zeena\"). After escorting Mattie Silver home one night, he becomes increasingly attracted to her: a dangerous situation given that she is Zenobia's cousin and living with the couple. In this scene, the secret lovers are tantalised by a night without Zenobia as her illness forces her to seek medical help in a neighboring village." ;
+        :textInTranslation   "No" .
+
+:2020067  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020067" ;
+        dc:title             "Daniel Deronda" ;
+        dc:type              "Novel" ;
+        schema:keywords      "beauty, aristocracy, archery, countryside, gender" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "At the Archery Meeting, Gwendolen's skills win her the attention of spectators, not least the wealthy and much talked about, Henleigh Mallinger Grandcourt.  " ;
+        :textInTranslation   "No" .
+
+:2020046  rdf:type          bibo:Document ;
+        dc:creator          "Henry James" ;
+        dc:identifier       "2020046" ;
+        dc:title            "The Pupil" ;
+        dc:type             "Short story" ;
+        schema:keywords     "family, Europe, teaching, children" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Beginning" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "The coarse American family, the Moreens, have hired the graduate Pemberton to tutor their son, Morgan. In this opening scene of the story, Pemberton is introduced to his charge for the first time, but has some difficulty getting a direct answer regarding his payment." ;
+        :textInTranslation  "No" .
+
+:20180181  rdf:type          bibo:Document ;
+        dc:creator           "Virginia Woolf" ;
+        dc:identifier        "20180181" ;
+        dc:title             "The Mark on the Wall" ;
+        schema:duration      "15" ;
+        schema:keywords      "animals" , "obsession" , "boredom" , "Realism" , "strangers " ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:2020025  rdf:type     bibo:Document ;
+        dc:creator     "Nathaniel Hawthorne" ;
+        dc:identifier  "2020025" ;
+        dc:title       "The Birthmark" .
+
+:20180160  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "20180160" ;
+        dc:title             "Feuille D'Album" ;
+        schema:duration      "12" ;
+        schema:keywords      "food" , "beauty " , "regret; strangers" , "jealousy" , "love " , "Realism" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:2020004  rdf:type     bibo:Document ;
+        dc:creator     "Kate Chopin" ;
+        dc:identifier  "2020004" ;
+        dc:title       "The Awakening" .
+
+:20180139  rdf:type          bibo:Document ;
+        dc:creator           "Thomas Hardy" ;
+        dc:identifier        "20180139" ;
+        dc:title             "A Pair of Blue Eyes " ;
+        schema:duration      "19" ;
+        schema:keywords      "love" , "Romance" , "Adventure" , "escape" , "cliffhanger; weather" , "sea" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "20" .
+
+:20180118  rdf:type          bibo:Document ;
+        dc:creator           "Kate Chopin" ;
+        dc:identifier        "20180118" ;
+        dc:title             "The Egyptian Cigarette" ;
+        schema:duration      "6" ;
+        schema:keywords      "journey" , "dreams" , "Fairytale" , "escape" , "Realism" ;
+        :durationNormalised  "10" .
+
+:2020125  rdf:type        bibo:Document ;
+        dc:creator        "Florence Bell and Elizabeth Robins" ;
+        dc:identifier     "2020125" ;
+        dc:title          "Alan's Wife" ;
+        :curatorInitials  "AP" .
+
+:2020104  rdf:type        bibo:Document ;
+        dc:creator        "Margaret Cavendish" ;
+        dc:identifier     "2020104" ;
+        dc:title          "The Blazing World" ;
+        :curatorInitials  "AP" .
+
+:2020096  rdf:type           bibo:Document ;
+        dc:creator           "Elizabeth Keckley" ;
+        dc:identifier        "2020096" ;
+        dc:title             "Behind the Scenes: Or, Thirty Years a Slave and Four Years in the White House " ;
+        dc:type              "Life-Writing" ;
+        bibo:isbn            "11" ;
+        schema:keywords      "dress, work, employment, slavery, war" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" ;
+        :placeInText         "full chapter" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "This fourth chapter in the autobiography of Elizabeth Keckley, who had ended a brutal period of enslavement in her earlier life by purchasing her own and her son's freedom in St. Louis.  Keckley has moved to Washington, D.C., and begun establishing her reputation as a fine seamstress." .
+
+:2020075  rdf:type           bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "2020075" ;
+        dc:title             "The Portrait of a Lady" ;
+        dc:type              "Novel" ;
+        schema:keywords      "Rome, history, travel, flirtation, New York" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Isabel Archer, alongside her cousin Ralph Touchett and friend Henrietta Stackpole, visit Rome. In the middle of this sumptuous city, Isabel is approached somewhat awkwardly by the former suitor whom she has turned down, Lord Warburton." ;
+        :textInTranslation   "No" .
+
+:2020054  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020054" ;
+        dc:title             "Adam Bede" ;
+        dc:type              "Novel" ;
+        schema:keywords      "vanity, clothing, mirrors, beauty, gender" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The beautiful Hetty Sorrel lives with her cousin Dinah Morris on their family's dairy farm, far away from her beloved, the Captain Arthur Donnithorne. " ;
+        :textInTranslation   "No" .
+
+:20180189  rdf:type          bibo:Document ;
+        dc:creator           "F. Scott Fitzgerald" ;
+        dc:identifier        "20180189" ;
+        dc:title             "The Side of Paradise" ;
+        schema:duration      "11" ;
+        schema:keywords      "flirtation" , "Adventure" , "childhood" , "regret; class; family" , "arrival" , "Romance" ;
+        :durationNormalised  "15" .
+
+:2020033  rdf:type     bibo:Document ;
+        dc:creator     "James Joyce" ;
+        dc:identifier  "2020033" ;
+        dc:title       "Ulysses" .
+
+:20180168  rdf:type          bibo:Document ;
+        dc:creator           "Charles W. Chesnutt" ;
+        dc:identifier        "20180168" ;
+        dc:title             "The House behind the Cedars" ;
+        dc:type              "Novel" ;
+        schema:duration      "9" ;
+        schema:keywords      "employment" , "strangers" , "Realism" , "arrival" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" ;
+        :othersFromAuthor    "no" .
+
+:2020012  rdf:type     bibo:Document ;
+        dc:creator     "Nathaniel Hawthorne" ;
+        dc:identifier  "2020012" ;
+        dc:title       "The Scarlet Letter" .
+
+:20180147  rdf:type          bibo:Document ;
+        dc:creator           "Elizabeth Gaskell" ;
+        dc:identifier        "20180147" ;
+        dc:title             "Mary Barton" ;
+        schema:duration      "13.5" ;
+        schema:keywords      "grief" , "employment" , "work" , "Realism" , "class" ;
+        :durationNormalised  "15" .
+
+:20180126  rdf:type          bibo:Document ;
+        dc:creator           "Harriet Ann Jacobs" ;
+        dc:identifier        "20180126" ;
+        dc:title             "Incidents in the Life of a Slave Girl" ;
+        schema:duration      "7" ;
+        schema:keywords      "slavery" , "childhood" , "Life Writing" ;
+        :durationNormalised  "10" .
+
+:20180105  rdf:type          bibo:Document ;
+        dc:creator           "Charlotte Bronte" ;
+        dc:identifier        "20180105" ;
+        dc:title             "Jane Eyre" ;
+        dc:type              "Novel" ;
+        schema:duration      "7" ;
+        schema:keywords      "jealousy" , "Gothic" , "employment; marriage" , "Romance" , "work" , "love " ;
+        :durationNormalised  "10" ;
+        :othersFromAuthor    "y" .
+
+:2020133  rdf:type           bibo:Document ;
+        dc:creator           "Oscar Wilde" ;
+        dc:identifier        "2020133" ;
+        dc:title             "The Happy Prince" ;
+        dc:type              "Short story" ;
+        bibo:isbn            "16" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "20" ;
+        :placeInText         "full story" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "In this fairytale, a statue enlists the help of a swallow to help the people in the city where it is placed" .
+
+:2020112  rdf:type        bibo:Document ;
+        dc:creator        "Mona Caird" ;
+        dc:identifier     "2020112" ;
+        dc:title          "Daughters of Danaus" ;
+        :curatorInitials  "AP" .
+
+:2020083  rdf:type           bibo:Document ;
+        dc:creator           "Lewis Carroll" ;
+        dc:identifier        "2020083" ;
+        dc:title             "Alice's Adventures in Wonderland" ;
+        dc:type              "Novel" ;
+        schema:keywords      "tea, food, animals, mice, humour" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Seven-year old Alice attends a tea-party after having fallen down a rabbit hole into a fantastical world filled with marvellous scenery. " ;
+        :textInTranslation   "No" .
+
+:2020062  rdf:type           bibo:Document ;
+        dc:creator           "Anne Brontë" ;
+        dc:identifier        "2020062" ;
+        dc:title             "The Tenant of Wildfell Hall" ;
+        dc:type              "Novel" ;
+        schema:keywords      "gothic, countryside, gender, children, temptation" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "In a letter, Gilbert Markham recounts the story of a visit paid to his family by the new tenants of Wildfell Hall: the raffish Helen Graham and her son, Arthur. In this exchange, the more refined Markhams debate with Helen on the subject of the way to properly raise children. " ;
+        :textInTranslation   "No" .
+
+:20180197  rdf:type          bibo:Document ;
+        dc:creator           "Charles Dickens" ;
+        dc:identifier        "20180197" ;
+        dc:title             "A Christmas Carol " ;
+        dc:type              "Novel" ;
+        schema:duration      "11" ;
+        schema:keywords      "work; fear" , "night" , "monster" , "ghosts" , "regret" , "Gothic" ;
+        :durationNormalised  "15" ;
+        :otherEntries        "Yes" ;
+        :othersFromAuthor    "y" .
+
+:2020041  rdf:type     bibo:Document ;
+        dc:creator     "Mary Belloc Lowndes" ;
+        dc:identifier  "2020041" ;
+        dc:title       "The Lodger" .
+
+:20180176  rdf:type          bibo:Document ;
+        dc:creator           "Sarah Grand" ;
+        dc:identifier        "20180176" ;
+        dc:title             "The Heavenly Twins" ;
+        schema:duration      "9" ;
+        schema:keywords      "family" , "Realism" , "ambition" , "boredom; Life Writing" , "identity" , "reading" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020020  rdf:type     bibo:Document ;
+        dc:creator     "Mary Shelley" ;
+        dc:identifier  "2020020" ;
+        dc:title       "The Last Man" .
+
+:20180155  rdf:type          bibo:Document ;
+        dc:creator           "Arthur Machen" ;
+        dc:identifier        "20180155" ;
+        dc:title             "The Great God Pan " ;
+        dc:type              "Novella" ;
+        schema:duration      "13" ;
+        schema:keywords      "Science Fiction" , "peril" , "ambition" , "monster" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" ;
+        :othersFromAuthor    "yes" ;
+        :placeInText         "Beginning" ;
+        :startEnd            "I am glad you came, Clarke [...] Give me a kiss before you begin.\"" ;
+        :storySoFar          "A man has come to see his friend, Dr Raymond, to help him with a mysterious experiment. " .
+
+:20180134  rdf:type          bibo:Document ;
+        dc:creator           "Elizabeth Bibesco" ;
+        dc:identifier        "20180134" ;
+        dc:title             "Balloons" ;
+        schema:duration      "4" ;
+        schema:keywords      "beauty " , "journey" , "Realism" ;
+        :durationNormalised  "5" .
+
+:20180113  rdf:type          bibo:Document ;
+        dc:creator           "Paul Laurence Dunbar" ;
+        dc:identifier        "20180113" ;
+        dc:title             "The Sport of the Gods" ;
+        schema:duration      "13" ;
+        schema:keywords      "beauty " , "arrival" , "Realism" , "ambition" , "strangers" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:2020120  rdf:type        bibo:Document ;
+        dc:creator        "Philip Quaque" ;
+        dc:identifier     "2020120" ;
+        dc:title          "Letters" ;
+        :curatorInitials  "AP" .
+
+:2020091  rdf:type           bibo:Document ;
+        dc:creator           "Edmund Gosse" ;
+        dc:identifier        "2020091" ;
+        dc:title             "Father and Son: A Study of Two Temperaments" ;
+        dc:type              "Novel" ;
+        schema:keywords      "sea, countryside, views, England, children" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "5" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "A childhood passion is recalled in this passage of a memoir by Edmund Gosse: he was the son of a prominent nienteenth-century naturalist who created London's first public aquarium. " ;
+        :textInTranslation   "No" .
+
+:2020070  rdf:type           bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "2020070" ;
+        dc:title             "The Portrait of a Lady" ;
+        dc:type              "Novel" ;
+        schema:keywords      "love, ambition, flirtation, romance, courtship" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The headstrong Isabel﻿ Archer is dedicated to protecting her independence. In this scene, she outflanks her suitor, Caspar Goodwood, who has followed her from America to England, demanding that she return to him." ;
+        :textInTranslation   "No" .
+
+:2020049  rdf:type          bibo:Document ;
+        dc:creator          "Elizabeth Gaskill" ;
+        dc:identifier       "2020049" ;
+        dc:title            "North and South" ;
+        dc:type             "Novel" ;
+        schema:keywords     "Ireland, strikes, gender, industry" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Passage" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "Margaret Hale lived a relatively comfortable life in the south of England until her father, a pastor, took the bold move of leaving his position in the Church. Now settled in the industrial Northern town of Milton, her idealism is tested by her friendly relations with the master of Marlborough Mills, John Thornton. This passage opens in the midst of the workers' strike at the mill, which has been exacerbated by Thornton's hiring of Irish workers. " ;
+        :textInTranslation  "No" .
+
+:20180184  rdf:type          bibo:Document ;
+        dc:creator           "Willa Cather" ;
+        dc:identifier        "20180184" ;
+        dc:title             "On the Divide" ;
+        schema:duration      "13" ;
+        schema:keywords      "mental disorder" , "arrival" , "peril" , "regret" , "Realism" , "work" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:2020028  rdf:type     bibo:Document ;
+        dc:creator     "Stevenson" ;
+        dc:identifier  "2020028" ;
+        dc:title       "The Strange Case of Dr Jekyll and Mr Hyde" .
+
+:20180163  rdf:type          bibo:Document ;
+        dc:creator           "Herman Melville" ;
+        dc:identifier        "20180163" ;
+        dc:title             "Moby Dick " ;
+        schema:duration      "8" ;
+        schema:keywords      "strangers" , "beauty " , "Adventure" , "sea; identity" , "marriage" , "employment" ;
+        :durationNormalised  "10" .
+
+:2020007  rdf:type     bibo:Document ;
+        dc:creator     "Aphra Behn" ;
+        dc:identifier  "2020007" ;
+        dc:title       "Oroonoko, the Royal Slave" .
+
+:20180142  rdf:type          bibo:Document ;
+        dc:creator           "H. G. Wells" ;
+        dc:identifier        "20180142" ;
+        dc:title             "The Red Room" ;
+        schema:duration      "13" ;
+        schema:keywords      "fear" , "ghosts" , "Gothic" , "Horror" , "night" ;
+        :durationNormalised  "15" .
+
+:20180121  rdf:type          bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "20180121" ;
+        dc:title             "The Mill on the Floss" ;
+        schema:duration      "14.5" ;
+        schema:keywords      "animals" , "family" , "jealousy" , "childhood" , "Realism" , "food" ;
+        :durationNormalised  "15" .
+
+:2020128  rdf:type        bibo:Document ;
+        dc:creator        "Alice Moore Dunbar Nelson" ;
+        dc:identifier     "2020128" ;
+        dc:title          "The Woman" ;
+        :curatorInitials  "AP" .
+
+:2020107  rdf:type        bibo:Document ;
+        dc:creator        "Margery Kempe" ;
+        dc:identifier     "2020107" ;
+        dc:title          "The Book of Margery Kempe" ;
+        :curatorInitials  "AP" .
+
+:2020099  rdf:type        bibo:Document ;
+        dc:creator        "Tom Redcam" ;
+        dc:identifier     "2020099" ;
+        dc:title          "One Brown Girl, And-" ;
+        :curatorInitials  "AP" .
+
+:2020078  rdf:type           bibo:Document ;
+        dc:creator           "Gustave Flaubert" ;
+        dc:identifier        "2020078" ;
+        dc:title             "A Simple Heart" ;
+        dc:type              "Novel" ;
+        schema:keywords      "animals, parrots, friendship" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "5" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Madame Aubain's ever-loyal housemaid Felicite finds happiness in her companionship with a cast-off bird." ;
+        :textInTranslation   "Yes" .
+
+:2020057  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020057" ;
+        dc:title             "Silas Marner: The Weaver of Raveloe" ;
+        dc:type              "Novel" ;
+        schema:keywords      "food, countryside, brothers, fights, money" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "20" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Two sons of Squire Cass -- Godfrey and Dunsey -- ﻿are in a spat about money. Dunsey refuses to pay the money he owes his brother and threatens to make known Godfrey's secret to their father. " ;
+        :textInTranslation   "No" .
+
+:20180192  rdf:type          bibo:Document ;
+        dc:creator           "James Joyce" ;
+        dc:identifier        "20180192" ;
+        dc:title             "The Dead" ;
+        schema:duration      "25" ;
+        schema:keywords      "regret" , "love" , "grief" , "death" , "Realism" ;
+        :durationNormalised  "25" .
+
+:2020036  rdf:type     bibo:Document ;
+        dc:creator     "Robert Tressell" ;
+        dc:identifier  "2020036" ;
+        dc:title       "The Ragged-Trousered Philanthropists" .
+
+:20180171  rdf:type          bibo:Document ;
+        dc:creator           "Charlotte Bronte" ;
+        dc:identifier        "20180171" ;
+        dc:title             "Jane Eyre " ;
+        dc:type              "Novel" ;
+        schema:duration      "11" ;
+        schema:keywords      "death; dreams; Life Writing" , "peril" , "fear" , "childhood" , "Gothic" , "family" ;
+        :durationNormalised  "15" ;
+        :othersFromAuthor    "y" .
+
+:2020015  rdf:type     bibo:Document ;
+        dc:creator     "Emily Bronte" ;
+        dc:identifier  "2020015" ;
+        dc:title       "Wuthering Heights 2" .
+
+:20180150  rdf:type          bibo:Document ;
+        dc:creator           "Jane Austen" ;
+        dc:identifier        "20180150" ;
+        dc:title             "Sense and Sensibility " ;
+        schema:duration      "10" ;
+        schema:keywords      "reading" , "flirtation" , "Romance" , "love " ;
+        :durationNormalised  "10" .
+
+:20180129  rdf:type          bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "20180129" ;
+        dc:title             "The Turn of the Screw" ;
+        schema:duration      "5" ;
+        schema:keywords      "Gothic" , "ghosts" , "journey" , "strangers" , "Horror" ;
+        :durationNormalised  "5" .
+
+:20180108  rdf:type          bibo:Document ;
+        dc:creator           "Gustave Flaubert" ;
+        dc:identifier        "20180108" ;
+        dc:title             "Madame Bovary" ;
+        schema:duration      "24.5" ;
+        schema:keywords      "Realism" , "journey" , "love" , "infidelity" , "sex" ;
+        :durationNormalised  "25" .
+
+:2020136  rdf:type        bibo:Document ;
+        dc:creator        "Saki (H. M. Munro)" ;
+        dc:identifier     "2020136" ;
+        dc:title          "Gabriel-Ernest" ;
+        dc:type           "Short story" ;
+        :curatorInitials  "AP" ;
+        :placeInText      "full story" ;
+        :startEnd         "n/a" ;
+        :storySoFar       "A young elegant stranger appears. He is charming to some and faintly menacing to others." .
+
+:2020115  rdf:type        bibo:Document ;
+        dc:creator        "Mona Caird" ;
+        dc:identifier     "2020115" ;
+        dc:title          "The Great Wave" ;
+        :curatorInitials  "AP" .
+
+:2020086  rdf:type           bibo:Document ;
+        dc:creator           "Edith Wharton" ;
+        dc:identifier        "2020086" ;
+        dc:title             "The Age of Innocence" ;
+        dc:type              "Novel" ;
+        schema:keywords      "opera, theatre, audience, New York, class" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" ;
+        :placeInText         "Beginning" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "The novel opens at the opera in New York where the spectators' attention is directed not wholly to the stage, but also to other members of the audience. " ;
+        :textInTranslation   "No" .
+
+:2020065  rdf:type           bibo:Document ;
+        dc:creator           "Charlotte Brontë" ;
+        dc:identifier        "2020065" ;
+        dc:title             "Villette" ;
+        dc:type              "Novel" ;
+        schema:keywords      "illness, medicine, doctors, fainting, Belgium " ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The teacher Lucy Snowe has become ill over a holiday period when her school has been left nearly empty.  " ;
+        :textInTranslation   "No" .
+
+:2020044  rdf:type          bibo:Document ;
+        dc:creator          "Elizabeth Robins" ;
+        dc:identifier       "2020044" ;
+        dc:title            "The Threlkeld Ear" ;
+        dc:type             "Short Story" ;
+        schema:keywords     "houses, butlers, ghosts" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Passage" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "Mrs Threlkeld is encouraged by her father-in-law Chrstopher Threlkeld to raise her son at the family manor, Threlkeld Hall. After moving in, she is warned by Mounsey, the butler, that a family ghost that appears every year on Christmas Eve." ;
+        :textInTranslation  "No" .
+
+:20180179  rdf:type          bibo:Document ;
+        dc:creator           "Virginia Woolf" ;
+        dc:identifier        "20180179" ;
+        dc:title             "A Haunted House" ;
+        schema:duration      "3" ;
+        schema:keywords      "marriage" , "identity" , "family" , "Fairytale" , "love" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" .
+
+:2020023  rdf:type     bibo:Document ;
+        dc:creator     "Jane Austen" ;
+        dc:identifier  "2020023" ;
+        dc:title       "Pride and Prejudice 2 [duplicate?]" .
+
+:20180158  rdf:type          bibo:Document ;
+        dc:creator           "Kenneth Grahame" ;
+        dc:identifier        "20180158" ;
+        dc:title             "The Wind in the Willows" ;
+        schema:duration      "26" ;
+        schema:keywords      "food" , "Fairytale" , "animals" , "dreams" , "arrival" , "weather" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "30" .
+
+:2020002  rdf:type           bibo:Document ;
+        dc:creator           "Joseph Conrad" ;
+        dc:identifier        "2020002" ;
+        dc:title             "Heart of Darkness" ;
+        dc:type              "novel" ;
+        schema:duration      "2" ;
+        :curatorInitials     "MS" ;
+        :durationNormalised  "5" ;
+        :placeInText         "excerpt" ;
+        :startEnd            "Going up that river was like […] half-a-crown a tumble—”" ;
+        :storySoFar          "After a long string of setbacks, Marlow, the protagonist of the story, finally begins his voyage down the Congo river as the captain of a steamboat. He recounts the fecund atmosphere that quickly morphs into treacherous obstacles to his duty to keep the ship afloat." .
+
+:20180137  rdf:type          bibo:Document ;
+        dc:creator           "Virginia Woolf" ;
+        dc:identifier        "20180137" ;
+        dc:title             "The Voyage Out " ;
+        schema:duration      "5.5" ;
+        schema:keywords      "reading" , "dreams" , "Realism" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" .
+
+:20180116  rdf:type          bibo:Document ;
+        dc:creator           "Jerome K. Jerome" ;
+        dc:identifier        "20180116" ;
+        dc:title             "Three Men in a Boat " ;
+        schema:duration      "4" ;
+        schema:keywords      "strangers" , "journey" , "Humour" , "escape" ;
+        :durationNormalised  "5" .
+
+:2020123  rdf:type        bibo:Document ;
+        dc:creator        "Mary Kingsley" ;
+        dc:identifier     "2020123" ;
+        dc:title          "Travels in West Africa" ;
+        :curatorInitials  "AP" .
+
+:2020102  rdf:type        bibo:Document ;
+        dc:creator        "Toru Dutt" ;
+        dc:identifier     "2020102" ;
+        dc:title          "The Royal Ascetic and the Hind" ;
+        :curatorInitials  "AP" .
+
+:2020094  rdf:type        bibo:Document ;
+        dc:creator        "W. E. B. Du Bois" ;
+        dc:identifier     "2020094" ;
+        dc:title          "Of the Meaning of Progress" ;
+        dc:type           "Essay" ;
+        schema:keywords   "school, childhood, race, progress, family" ;
+        :curatorInitials  "AP" ;
+        :placeInText      "full chapter" ;
+        :startEnd         "n/a" ;
+        :storySoFar       "This is the fourth chapter of Du Bois's iconic anti-racist esay collection The Souls of Black Folk (1903), in which he analyses his experiences as a teacher in a Tennessee school during the segregation era in the United States." .
+
+:2020073  rdf:type           bibo:Document ;
+        dc:creator           "DH Lawrence" ;
+        dc:identifier        "2020073" ;
+        dc:title             "Sons and Lovers" ;
+        dc:type              "Novel" ;
+        schema:keywords      "love, flirtation, courtship, sons, mothers, families" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The protagonist, Paul Morel -- whose turbulent family life continues to exert an influence on him  -- becomes smitten with a romantic interest, Miriam Leivers." ;
+        :textInTranslation   "No" .
+
+:2020052  rdf:type           bibo:Document ;
+        dc:creator           "Henry James" ;
+        dc:identifier        "2020052" ;
+        dc:title             "The Wings of the Dove" ;
+        dc:type              "Novel" ;
+        schema:keywords      "mirrors, furniture, fathers, daughters, London" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" ;
+        :placeInText         "Beginning" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "In this scene at the opening of the novel, the increasingly desperate Kate Croy visits her aging father in order to secure financial resources for the future. " ;
+        :textInTranslation   "No" .
+
+:20180187  rdf:type          bibo:Document ;
+        dc:creator           "Alice Moore Dunbar-Nelson" ;
+        dc:identifier        "20180187" ;
+        dc:title             "In Unconsciousness" ;
+        dc:type              "Short Story" ;
+        schema:duration      "6" ;
+        schema:keywords      "escape" , "beauty " , "dreams" , "Adventure" , "journey" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" ;
+        :othersFromAuthor    "y " ;
+        :placeInText         "full text" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "A person experiences a strange reverie." .
+
+:2020031  rdf:type     bibo:Document ;
+        dc:creator     "Oscar Wilde" ;
+        dc:identifier  "2020031" ;
+        dc:title       "De Profundis" .
+
+:20180166  rdf:type          bibo:Document ;
+        dc:creator           "Jane Austen" ;
+        dc:identifier        "20180166" ;
+        dc:title             "Pride and Prejudice" ;
+        schema:duration      "4" ;
+        schema:keywords      "Romance" , "family" , "ambition" , "strangers" , "arrival" , "love " ;
+        :durationNormalised  "5" .
+
+:2020010  rdf:type     bibo:Document ;
+        dc:creator     "Pedro Calderon de la Barca" ;
+        dc:identifier  "2020010" ;
+        dc:title       "Life Is a Dream" .
+
+:20180145  rdf:type          bibo:Document ;
+        dc:creator           "Robert Louis Stevenson" ;
+        dc:identifier        "20180145" ;
+        dc:title             "The Strange Case of Dr Jekyll and Mr Hyde" ;
+        schema:duration      "12.5" ;
+        schema:keywords      "strangers" , "fear" , "Science Fiction" , "Gothic" , "identity" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:20180124  rdf:type          bibo:Document ;
+        dc:creator           "Edith Wharton" ;
+        dc:identifier        "20180124" ;
+        dc:title             "Ethan Frome" ;
+        schema:duration      "6.5" ;
+        schema:keywords      "marriage" , "Romance" , "illness" , "Realism" , "infidelity" ;
+        :durationNormalised  "10" .
+
+:20180103  rdf:type          bibo:Document ;
+        dc:creator           "Edgar Allen Poe" ;
+        dc:identifier        "20180103" ;
+        dc:title             "Berenice" ;
+        schema:duration      "13.5" ;
+        schema:keywords      "beauty " , "Gothic" , "death" , "mental disorder; Horror" , "fear" , "obsession" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:2020131  rdf:type        bibo:Document ;
+        dc:creator        "Frances Harper" ;
+        dc:identifier     "2020131" ;
+        dc:title          "Iola Leroy" ;
+        :curatorInitials  "AP" .
+
+:2020110  rdf:type        bibo:Document ;
+        dc:creator        "Charles Darwin" ;
+        dc:identifier     "2020110" ;
+        dc:title          "Voyage" ;
+        :curatorInitials  "AP" .
+
+:2020081  rdf:type           bibo:Document ;
+        dc:creator           "EM Forster" ;
+        dc:identifier        "2020081" ;
+        dc:title             "Howards End" ;
+        dc:type              "Novel" ;
+        schema:keywords      "Christmas, houses, landlords, renting" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "5" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The sisters Helen and Margaret Schlegel have become entangled with the rich Wilcox family, residents of a manor called Howard End. While shopping together during the Christmas season, Ruth Wilcox invites Margaret Schlegel to see her beloved home." ;
+        :textInTranslation   "No" .
+
+:2020060  rdf:type           bibo:Document ;
+        dc:creator           "Honoré de Balzac" ;
+        dc:identifier        "2020060" ;
+        dc:title             "Father Goriot" ;
+        dc:type              "Novel" ;
+        schema:keywords      "humour, tricks, flirtation, houses" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The easily-duped Mme. Vauquer runs a boarding-house filled with colourful characters, including the somewhat charming M Goriot, a retired Vermicelli maker. " ;
+        :textInTranslation   "Yes" .
+
+:20180195  rdf:type          bibo:Document ;
+        dc:creator           "William Makepeace Thackeray" ;
+        dc:identifier        "20180195" ;
+        dc:title             "Vanity Fair" ;
+        schema:duration      "10" ;
+        schema:keywords      "escape" , "ambition" , "Humour" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "20" .
+
+:2020039  rdf:type     bibo:Document ;
+        dc:creator     "Wilkie Collins" ;
+        dc:identifier  "2020039" ;
+        dc:title       "The Moonstone" .
+
+:20180174  rdf:type          bibo:Document ;
+        dc:creator           "George Gissing" ;
+        dc:identifier        "20180174" ;
+        dc:title             "A Nether World" ;
+        schema:duration      "9" ;
+        schema:keywords      "Realism" , "strangers" , "identity" , "arrival" , "childhood" , "weather" ;
+        :durationNormalised  "10" .
+
+:2020018  rdf:type     bibo:Document ;
+        dc:creator     "Samuel Butler" ;
+        dc:identifier  "2020018" ;
+        dc:title       "Erewhon 2" .
+
+:20180153  rdf:type          bibo:Document ;
+        dc:creator           "Elleke Boehmer" ;
+        dc:identifier        "20180153" ;
+        dc:title             "The Shouting in the Dark" ;
+        schema:duration      "3.5" ;
+        schema:keywords      "boredom" , "Realism" , "childhood" , "reading" ;
+        :durationNormalised  "5" .
+
+:20180132  rdf:type          bibo:Document ;
+        dc:creator           "H. G. Wells" ;
+        dc:identifier        "20180132" ;
+        dc:title             "The Island of Dr Moreau" ;
+        schema:duration      "8" ;
+        schema:keywords      "animals" , "monster" , "Science Fiction" ;
+        :durationNormalised  "10" .
+
+:20180111  rdf:type          bibo:Document ;
+        dc:creator           "Edith Wharton" ;
+        dc:identifier        "20180111" ;
+        dc:title             "The House of Mirth" ;
+        schema:duration      "13" ;
+        schema:keywords      "Realism" , "Romance" , "ambition" , "beauty " , "flirtation" , "night" ;
+        :durationNormalised  "15" .
+
+:2020139  rdf:type           bibo:Document ;
+        dc:creator           "Jane Austen" ;
+        dc:identifier        "2020139" ;
+        dc:title             "Emma" ;
+        dc:type              "Novel" ;
+        schema:duration      "6" ;
+        schema:keywords      "Mistakes, love, ambition" ;
+        schema:wordCount     "1197" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" ;
+        :placeInText         "excerpt, vol 1, chapter xvi, 106-109 OWC edn." ;
+        :startEnd            "The hair was curled [...] to depend on getting tolerably out of it.\"" ;
+        :storySoFar          "Rich, pretty, and witty Emma has encouraged her friend Harriet (who is sweet but of lower social standing) to expect a proposal from their eloquent acquaintance, Mr Elliot. Last night, however, Mr Elliot proclaimed his love for Emma instead, to her horror and disgust. Having rejected him, she reflects on the situation." .
+
+:2020118  rdf:type        bibo:Document ;
+        dc:creator        "Marie de France" ;
+        dc:identifier     "2020118" ;
+        dc:title          "Launfal" ;
+        :curatorInitials  "AP" .
+
+:2020089  rdf:type           bibo:Document ;
+        dc:creator           "Grossmith George and Weedon" ;
+        dc:identifier        "2020089" ;
+        dc:title             "The Diary of a Nobody" ;
+        dc:type              "Novel" ;
+        schema:keywords      "houses, class, humour, diaries, London" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "5" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "In this satire of tell-all autobiographies -- written in the nineteenth century - a series of fictional diary entries recounts the affairs of one Mr Pooter whose aggrandised sense of self-importance competes with the dullness of his affairs. " ;
+        :textInTranslation   "No" .
+
+:2020068  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020068" ;
+        dc:title             "Daniel Deronda" ;
+        dc:type              "Novel" ;
+        schema:keywords      "letters, beauty, stones, walks" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "At an archery competition, the sadistic Grandcourt finally sees the opportunity to propose to the woman he has been courting, Gwendolen. In the company of her mother Mrs Davilow, Grandcourt's friend Lush and Lord Brackenshaw, Gwndolen is given a troubling letter." ;
+        :textInTranslation   "No" .
+
+:2020047  rdf:type          bibo:Document ;
+        dc:creator          "Elizabeth Bibesco" ;
+        dc:identifier       "2020047" ;
+        dc:title            "The Martyr" ;
+        dc:type             "Short story" ;
+        schema:keywords     "writing, literature, celebrity, America" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Beginning" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "Bibesco dedicated this short story to her friend, HG Wells. The narrator Charlotte seems to speak directly to her readers in telling her anecdote, which is marked by wry irony and subtle humor.  " ;
+        :textInTranslation  "No" .
+
+:20180182  rdf:type          bibo:Document ;
+        dc:creator           "Kate Chopin" ;
+        dc:identifier        "20180182" ;
+        dc:title             "The Kiss" ;
+        schema:duration      "5" ;
+        schema:keywords      "ambition" , "marriage" , "infidelity" , "love" , "Romance" , "flirtation" ;
+        :durationNormalised  "5" .
+
+:2020026  rdf:type     bibo:Document ;
+        dc:creator     "Mary Elizabeth Braddon" ;
+        dc:identifier  "2020026" ;
+        dc:title       "Lady Audley’s Secret" .
+
+:20180161  rdf:type          bibo:Document ;
+        dc:creator           "Mary Shelley" ;
+        dc:identifier        "20180161" ;
+        dc:title             "Frankenstein " ;
+        schema:duration      "10" ;
+        schema:keywords      "weather " , "Gothic" , "strangers; sea" , "peril" , "journey" , "Science Fiction" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020005  rdf:type     bibo:Document ;
+        dc:creator     "Franz Kafka" ;
+        dc:identifier  "2020005" ;
+        dc:title       "Metamorphosis" .
+
+:20180140  rdf:type          bibo:Document ;
+        dc:creator           "Benjamin Disraeli" ;
+        dc:identifier        "20180140" ;
+        dc:title             "Sybil" ;
+        dc:type              "Novel" ;
+        schema:duration      "8" ;
+        schema:keywords      "boredom" , "night " , "animals" , "Realism" , "weather" , "Satire" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" ;
+        :othersFromAuthor    "no" .
+
+:20180119  rdf:type          bibo:Document ;
+        dc:creator           "Samuel Butler" ;
+        dc:identifier        "20180119" ;
+        dc:title             "Erewhon" ;
+        schema:duration      "6.5" ;
+        schema:keywords      "machines " , "Satire" , "ambition" , "dreams" , "potatoes" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020126  rdf:type        bibo:Document ;
+        dc:creator        "Elizabeth Robins" ;
+        dc:identifier     "2020126" ;
+        dc:title          "Herstory of a Button" ;
+        :curatorInitials  "AP" .
+
+:2020105  rdf:type        bibo:Document ;
+        dc:creator        "Margaret Cavendish" ;
+        dc:identifier     "2020105" ;
+        dc:title          "The Blazing World" ;
+        :curatorInitials  "AP" .
+
+:2020097  rdf:type        bibo:Document ;
+        dc:creator        "Mary Prince" ;
+        dc:identifier     "2020097" ;
+        dc:title          "The History of Mary Prince" ;
+        dc:type           "Life-Writing" ;
+        schema:keywords   "slavery, work, freedom, law" ;
+        :curatorInitials  "AP" ;
+        :placeInText      "chapter 5" ;
+        :startEnd         "\"I had not much happiness in my marriage,[…] bless God in my affliction.\"" ;
+        :storySoFar       "Mary Prince, writing with the support of a scribe, tells the history of her life and her experience of living in horrific slavery. By the end of her narrative, where this section begins, Mary has developed health issues from being forced to wash laundry in difficult conditions, and though she has married Daniel, a fellow member of the Moravian church, her marriage with him is not protected by law. The Woods, the family who enforce her enslavement in Antigua have brought her to England." .
+
+:2020076  rdf:type           bibo:Document ;
+        dc:creator           "Marcel Proust" ;
+        dc:identifier        "2020076" ;
+        dc:title             "Swann's Way" ;
+        dc:type              "Novel" ;
+        schema:keywords      "memory, nostalgia, cake, tea, children" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "In this famous scene, the nameless narrator is stirred to profound revery of his childhood village, Combray, by the familiar taste of a piece of cake dipped in tea." ;
+        :textInTranslation   "Yes" .
+
+:21080100  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "21080100" ;
+        dc:title             "Bliss  " ;
+        schema:duration      "15" ;
+        schema:keywords      "night" , "beauty " , "infidelity" , "jealousy" , "Realism" , "arrival" ;
+        :durationNormalised  "15" .
+
+:2020055  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020055" ;
+        dc:title             "Adam Bede" ;
+        dc:type              "Novel" ;
+        schema:keywords      "gender, countryside, competition, romance, beauty" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "With respect to her many suitors, the beautiful Hetty Sorrel prefers the seductive young squire Captain Arthur Donnithorne to the village carpenter, Adam Bede. " ;
+        :textInTranslation   "No" .
+
+:20180190  rdf:type          bibo:Document ;
+        dc:creator           "Thomas Hardy" ;
+        dc:identifier        "20180190" ;
+        dc:title             "Tess of the D’Urbervilles " ;
+        schema:duration      "10" ;
+        schema:keywords      "grief" , "night" , "Adventure" , "animals" , "death" , "journey" ;
+        :durationNormalised  "10" .
+
+:2020034  rdf:type     bibo:Document ;
+        dc:creator     "Kate Chopin" ;
+        dc:identifier  "2020034" ;
+        dc:title       "The Story of an Hour" .
+
+:20180169  rdf:type          bibo:Document ;
+        dc:creator           "W. E. B. Du Bois" ;
+        dc:identifier        "20180169" ;
+        dc:title             "The Quest of the Silver Fleece" ;
+        schema:duration      "10" ;
+        schema:keywords      "Fairytale" , "arrival; fear; food" , "night" , "Realism" , "childhood" , "strangers" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020013  rdf:type     bibo:Document ;
+        dc:creator     "Mary E. Wilkins Freeman" ;
+        dc:identifier  "2020013" ;
+        dc:title       "The Revolt of “Mother” " .
+
+:20180148  rdf:type          bibo:Document ;
+        dc:creator           "Lewis Carroll" ;
+        dc:identifier        "20180148" ;
+        dc:title             "Alice in Wonderland" ;
+        schema:duration      "8.5" ;
+        schema:keywords      "sea" , "journey" , "animals" , "Nonsense" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:20180127  rdf:type          bibo:Document ;
+        dc:creator           "Wilkie Collins" ;
+        dc:identifier        "20180127" ;
+        dc:title             "The Woman in White" ;
+        schema:duration      "12" ;
+        schema:keywords      "Gothic " , "arrival" , "painting" , "beauty" , "family" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:20180106  rdf:type          bibo:Document ;
+        dc:creator           "Robert Louis Stevenson" ;
+        dc:identifier        "20180106" ;
+        dc:title             "Kidnapped" ;
+        schema:duration      "5.5" ;
+        schema:keywords      "language; illness" , "escape" , "food" , "Humour" , "sea" , "peril" ;
+        :curatorInitials     "KSB" ;
+        :durationNormalised  "5" .
+
+:2020134  rdf:type        bibo:Document ;
+        dc:creator        "Saki (H. M. Munro)" ;
+        dc:identifier     "2020134" ;
+        dc:title          "The Open Window" ;
+        dc:type           "Short story" ;
+        :curatorInitials  "AP" ;
+        :placeInText      "full story" ;
+        :startEnd         "n/a" ;
+        :storySoFar       "A nervous man comes to stay somewhere new, and is chilled by the reason that a window is kept always open." .
+
+:2020113  rdf:type        bibo:Document ;
+        dc:creator        "Mona Caird" ;
+        dc:identifier     "2020113" ;
+        dc:title          "Daughters of Danaus" ;
+        :curatorInitials  "AP" .
+
+:2020084  rdf:type           bibo:Document ;
+        dc:creator           "Thomas Hardy" ;
+        dc:identifier        "2020084" ;
+        dc:title             "Jude the Obscure" ;
+        dc:type              "Novel" ;
+        schema:keywords      "beauty, university, escape, employment, arrival" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "The eponymous Jude hails from a village in Southern England where he works in a bakery. His dream is to devote himself to study at the ancient university, Christminster. Despite his dedication, other callings seem to ensnare his plans at every turn. " ;
+        :textInTranslation   "No" .
+
+:2020063  rdf:type           bibo:Document ;
+        dc:creator           "Anne Brontë" ;
+        dc:identifier        "2020063" ;
+        dc:title             "The Tenant of Wildfell Hall" ;
+        dc:type              "Novel" ;
+        schema:keywords      "paintings, houses, art, countryside, children" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "In a letter to a friend, Gilbert Markham tells of a visit that he and his sister took to the forbidding Wildfell Hall, and its tenants the unconventional Helen Graham and her son Arthur. " ;
+        :textInTranslation   "No" .
+
+:20180198  rdf:type          bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "20180198" ;
+        dc:title             "Daniel Deronda" ;
+        schema:duration      "15" ;
+        schema:keywords      "flirtation" , "Romance" , "Realism" , "boredom" , "ambition" , "strangers" ;
+        :durationNormalised  "15" .
+
+:2020042  rdf:type          bibo:Document ;
+        dc:creator          "Frances (Fanny) Burney" ;
+        dc:identifier       "2020042" ;
+        dc:title            "Evelina" ;
+        dc:type             "Novel" ;
+        schema:keywords     "comedy, opera, getting ready, London" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Passage" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "Evelina is a well-educated young woman, but inexperienced in the ways of the world. The passage below is narrated by her. She has been granted permission by her guardian to attend the opera in London alongside her friend, the respectable Maria Mirvan. Their toilette is interrupted, however, by Evelina's boorish relations, the Miss Branghtons. They too want to accompany Evelina to the opera. " ;
+        :textInTranslation  "No" .
+
+:20180177  rdf:type          bibo:Document ;
+        dc:creator           "Sarah Grand" ;
+        dc:identifier        "20180177" ;
+        dc:title             "The Beth Book" ;
+        schema:duration      "9" ;
+        schema:keywords      "childhood" , "peril" , "identity" , "nature" , "Life Writing" , "Realism" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020021  rdf:type     bibo:Document ;
+        dc:creator     "George Eliot" ;
+        dc:identifier  "2020021" ;
+        dc:title       "The Mill on the Floss" .
+
+:20180156  rdf:type          bibo:Document ;
+        dc:creator           "Arthur Machen" ;
+        dc:identifier        "20180156" ;
+        dc:title             "The Great God Pan " ;
+        dc:type              "Novella" ;
+        schema:duration      "2" ;
+        schema:keywords      "Science Fiction" , "obsession" , "monster; peril" , "regret" , "ambition" , "mental disorder" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" ;
+        :othersFromAuthor    "y " ;
+        :placeInText         "Continues previous excerpt [20180155]" .
+
+:20180135  rdf:type          bibo:Document ;
+        dc:creator           "Charles Dickens" ;
+        dc:identifier        "20180135" ;
+        dc:title             "The Cricket on the Hearth" ;
+        dc:type              "Short Story" ;
+        schema:duration      "18" ;
+        schema:keywords      "Realism" , "night" , "marriage; food" , "family" , "animals" , "weather " ;
+        :durationNormalised  "20" ;
+        :othersFromAuthor    "y" .
+
+:20180114  rdf:type          bibo:Document ;
+        dc:creator           "Anne Bronte" ;
+        dc:identifier        "20180114" ;
+        dc:title             "The Tenant of Wildfell Hall" ;
+        dc:type              "Novel" ;
+        schema:duration      "29.5" ;
+        schema:keywords      "strangers" , "Romance" , "animals" , "nature; flirtation" , "Epistolary" , "arrival" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "30" ;
+        :othersFromAuthor    "no" ;
+        :placeInText         "Chapter 1" ;
+        :startEnd            "You must go back with me to the autumn of 1827. [...] and overflowing with love for Eliza." ;
+        :storySoFar          "Gilbert Markham (a young farmer) writes to his brother-in-law about the arrival of a mysterious widow, her young son, and servant, to a previously uninhabited house in a quiet rural neighbourhood." .
+
+:2020121  rdf:type        bibo:Document ;
+        dc:creator        "Sheridan le Fanu" ;
+        dc:identifier     "2020121" ;
+        dc:title          "Carmilla" ;
+        :curatorInitials  "AP" .
+
+:2020100  rdf:type        bibo:Document ;
+        dc:creator        "Tom Redcam" ;
+        dc:identifier     "2020100" ;
+        dc:title          "One Brown Girl, And-" ;
+        :curatorInitials  "AP" .
+
+:2020092  rdf:type           bibo:Document ;
+        dc:creator           "W. E. B. Du Bois" ;
+        dc:identifier        "2020092" ;
+        dc:title             "The Souls of Black Folk" ;
+        dc:type              "Essay" ;
+        schema:keywords      "race, history, selfhood" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Forethought and Chapter 1, excerpt" ;
+        :startEnd            "[…] and the sobering realization of the meaning of progress.\" " ;
+        :storySoFar          "This excerpt begins Du Bois's iconic essay collection The Souls of Black Folk (1903), a landmark call for greater awareness of the growing divisiveness and damage that racism was causing in the United States." .
+
+:2020071  rdf:type           bibo:Document ;
+        dc:creator           "Elizabeth Robins" ;
+        dc:identifier        "2020071" ;
+        dc:title             "The Magnetic North" ;
+        dc:type              "Novel" ;
+        schema:keywords      "gold, gold rush, Canada, Yukon" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The Klondyke Gold Rush -- the novel opens with a description of five men who have been brought together in the desperate hopes of striking gold. " ;
+        :textInTranslation   "No" .
+
+:2020050  rdf:type           bibo:Document ;
+        dc:creator           "Edgar Allan Pie" ;
+        dc:identifier        "2020050" ;
+        dc:title             "The Purloined Letter" ;
+        dc:type              "Short story" ;
+        schema:keywords      "Police, Mystery, Paris, Theft" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" ;
+        :placeInText         "Beginning" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "This early detective story features the amateur investigator C Auguste Dupin whose services are desperately sought to solve a mystery regarding an important letter. This passage is narrated by Dupin's unnamed friend, with whom he shares a manor in Paris." ;
+        :textInTranslation   "No" .
+
+:20180185  rdf:type          bibo:Document ;
+        dc:creator           "Willa Cather" ;
+        dc:identifier        "20180185" ;
+        dc:title             "On the Divide " ;
+        schema:duration      "15" ;
+        schema:keywords      "escape" , "peril" , "Realism" , "obsession" , "fear" , "marriage" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:2020029  rdf:type     bibo:Document ;
+        dc:creator     "Oscar Wilde" ;
+        dc:identifier  "2020029" ;
+        dc:title       "An Ideal Husband " .
+
+:20180164  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "20180164" ;
+        dc:title             "A Dill Pickle " ;
+        schema:duration      "10" ;
+        schema:keywords      "grief" , "Romance" , "love" , "regret" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:2020008  rdf:type     bibo:Document ;
+        dc:creator     "Johann Wolfgang von Goethe" ;
+        dc:identifier  "2020008" ;
+        dc:title       "The Sorrows of Young Werther" .
+
+:20180143  rdf:type          bibo:Document ;
+        dc:creator           "Herman Melville" ;
+        dc:identifier        "20180143" ;
+        dc:title             "Moby Dick" ;
+        schema:duration      "19" ;
+        schema:keywords      "Adventure" , "sea " , "obsession" , "death" , "animals" ;
+        :durationNormalised  "20" .
+
+:20180122  rdf:type          bibo:Document ;
+        dc:creator           "Edith Wharton" ;
+        dc:identifier        "20180122" ;
+        dc:title             "The House of Mirth " ;
+        schema:duration      "16.5" ;
+        schema:keywords      "nature" , "Realism" , "flirtation" , "ambition" , "Romance" ;
+        :durationNormalised  "20" .
+
+:20180101  rdf:type          bibo:Document ;
+        dc:creator           "Thomas Hardy" ;
+        dc:identifier        "20180101" ;
+        dc:title             "A Pair of Blue Eyes" ;
+        schema:duration      "16.5" ;
+        schema:keywords      "sea" , "cliffhanger; weather" , "Adventure" , "peril" , "Realism" , "love" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "20" .
+
+:2020129  rdf:type        bibo:Document ;
+        dc:creator        "Alice Moore Dunbar Nelson" ;
+        dc:identifier     "2020129" ;
+        dc:title          "Ten Minutes' Musing" ;
+        :curatorInitials  "AP" .
+
+:2020108  rdf:type        bibo:Document ;
+        dc:creator        "Margery Kempe" ;
+        dc:identifier     "2020108" ;
+        dc:title          "The Book of Margery Kempe" ;
+        :curatorInitials  "AP" .
+
+:2020079  rdf:type           bibo:Document ;
+        dc:creator           "Gustave Flaubert" ;
+        dc:identifier        "2020079" ;
+        dc:title             "The Legend of Saint Julian the Hospitaller" ;
+        dc:type              "Novel" ;
+        schema:keywords      "animals, castles, forests, children, hunting" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The opening of this short story tells of the birth of Julian, and the accompanying prophecies predicting his sainthood as well as great bloodshed." ;
+        :textInTranslation   "Yes" .
+
+:2020058  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020058" ;
+        dc:title             "Silas Marner: The Weaver of Raveloe" ;
+        dc:type              "Novel" ;
+        schema:keywords      "countryside, labour, animals, religion, strangers" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "15" ;
+        :placeInText         "Beginning" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "The novella opens with a lush description of the village of Raveloe and an introduction to its mysterious weaver, Silas Marner." ;
+        :textInTranslation   "No" .
+
+:20180193  rdf:type          bibo:Document ;
+        dc:creator           "James Joyce" ;
+        dc:identifier        "20180193" ;
+        dc:title             "The Portrait of the Artist as a Young Man" ;
+        schema:duration      "7" ;
+        schema:keywords      "language " , "childhood" , "fear" , "family" , "Life Writing" ;
+        :durationNormalised  "10" .
+
+:2020037  rdf:type     bibo:Document ;
+        dc:creator     "Alexandre Dumas" ;
+        dc:identifier  "2020037" ;
+        dc:title       "The Three Musketeers" .
+
+:20180172  rdf:type          bibo:Document ;
+        dc:creator           "Walter Scott" ;
+        dc:identifier        "20180172" ;
+        dc:title             "The Antiquary" ;
+        schema:duration      "11" ;
+        schema:keywords      "ambition" , "obsession" , "nature" , "class " , "Realism" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "15" .
+
+:2020016  rdf:type     bibo:Document ;
+        dc:creator     "Lewis Carroll" ;
+        dc:identifier  "2020016" ;
+        dc:title       "Through the Looking-Glass " .
+
+:20180151  rdf:type          bibo:Document ;
+        dc:creator           "Radclyffe Hall" ;
+        dc:identifier        "20180151" ;
+        dc:title             "The Well of Loneliness" ;
+        schema:duration      "7" ;
+        schema:keywords      "class" , "Romance" , "childhood" , "Realism" , "identity" , "flirtation" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "10" .
+
+:20180130  rdf:type          bibo:Document ;
+        dc:creator           "E. M. Forster" ;
+        dc:identifier        "20180130" ;
+        dc:title             "A Room with a View" ;
+        schema:duration      "5" ;
+        schema:keywords      "boredom" , "painting" , "Realism" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "5" .
+
+:20180109  rdf:type          bibo:Document ;
+        dc:creator           "Alice Moore Dunbar-Nelson" ;
+        dc:identifier        "20180109" ;
+        dc:title             "The Bee-Man" ;
+        dc:type              "Short Story" ;
+        schema:duration      "5.5" ;
+        schema:keywords      "work" , "Fairytale" , "animals" , "age" , "ambition" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" ;
+        :othersFromAuthor    "y" ;
+        :placeInText         "full text" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "A story within a story describes the fairytale fate of the Bee-Man." .
+
+:2020137  rdf:type        bibo:Document ;
+        dc:creator        "George Eliot" ;
+        dc:identifier     "2020137" ;
+        dc:title          "Middlemarch" ;
+        dc:type           "Novel" ;
+        :curatorInitials  "MS" ;
+        :placeInText      "excerpt" ;
+        :startEnd         "\"The weight of unintelligible Rome […] the quickest of us walk about well wadded with stupidity.\"" ;
+        :storySoFar       "On a honeymoon trip to Rome with her new husband, Mr. Casaubon, a dour, overbearing scholar, Dorothea begins to cry at the thought of her mundane present and future despite the beautiful scenes she’s experienced on her trip." .
+
+:2020116  rdf:type        bibo:Document ;
+        dc:creator        "Olaudah Equiano" ;
+        dc:identifier     "2020116" ;
+        dc:title          "An Interesting Narrative" ;
+        :curatorInitials  "AP" .
+
+:2020087  rdf:type           bibo:Document ;
+        dc:creator           "Edith Wharton" ;
+        dc:identifier        "2020087" ;
+        dc:title             "The Age of Innocence" ;
+        dc:type              "Novel" ;
+        schema:keywords      "love, secrets, desire, sea, beauty" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a " ;
+        :storySoFar          "May and her recently-betrothed Newland Archer﻿" ;
+        :textInTranslation   "No" .
+
+:2020066  rdf:type           bibo:Document ;
+        dc:creator           "George Eliot" ;
+        dc:identifier        "2020066" ;
+        dc:title             "Daniel Deronda" ;
+        dc:type              "Novel" ;
+        schema:keywords      "rowing, London, rivers, bridges, the Thames" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" ;
+        :placeInText         "Passage" ;
+        :startEnd            "n/a" ;
+        :storySoFar          "Daniel Deronda has spent his life as the ward of Sir Hugo Mallinger, with very little knowledge of his own family origins." ;
+        :textInTranslation   "No" .
+
+:2020045  rdf:type          bibo:Document ;
+        dc:creator          "Alice Moore Dunbar-Nelson" ;
+        dc:identifier       "2020045" ;
+        dc:title            "The Carnival Jangle" ;
+        dc:type             "Sketch" ;
+        schema:keywords     "city, carnival, New Orleans, masks" ;
+        :curatorInitials    "DA" ;
+        :placeInText        "Full text" ;
+        :startEnd           "n/a" ;
+        :storySoFar         "A celebration of Mardi Gras--or, carnival--in New Orleans fizzes in the streets of this short story, but the narrator suggests that darker themes hover just outside of the public spectacle." ;
+        :textInTranslation  "No" .
+
+:20180180  rdf:type          bibo:Document ;
+        dc:creator           "Virginia Woolf" ;
+        dc:identifier        "20180180" ;
+        dc:title             "Monday or Tuesday" ;
+        schema:duration      "1" ;
+        schema:keywords      "nature" , "journey" , "animals" , "night" , "Realism" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" .
+
+:2020024  rdf:type     bibo:Document ;
+        dc:creator     "Thomas Hardy" ;
+        dc:identifier  "2020024" ;
+        dc:title       "Tess of the D’Urbervilles" .
+
+:20180159  rdf:type          bibo:Document ;
+        dc:creator           "Katherine Mansfield" ;
+        dc:identifier        "20180159" ;
+        dc:title             "A Dill Pickle" ;
+        schema:duration      "4" ;
+        schema:keywords      "grief" , "food" , "Romance" , "regret" , "love" ;
+        :curatorInitials     "AP" ;
+        :durationNormalised  "5" .
+
+:2020003  rdf:type     bibo:Document ;
+        dc:creator     "Oscar Wilde" ;
+        dc:identifier  "2020003" ;
+        dc:title       "Importance of Being Earnest" .
+
+:20180138  rdf:type          bibo:Document ;
+        dc:creator           "E. M. Forster" ;
+        dc:identifier        "20180138" ;
+        dc:title             "The Machine Stops" ;
+        schema:duration      "9.5" ;
+        schema:keywords      "machines " , "regret" , "Science Fiction" , "ambition" ;
+        :curatorInitials     "DA" ;
+        :durationNormalised  "10" .
+
+:20180117  rdf:type          bibo:Document ;
+        dc:creator           "Jerome K. Jerome" ;
+        dc:identifier        "20180117" ;
+        dc:title             "Three Men in a Boat " ;
+        schema:duration      "4" ;
+        schema:keywords      "reading" , "illness" , "Humour" ;
+        :durationNormalised  "5" .
+
+:2020124  rdf:type        bibo:Document ;
+        dc:creator        "Mary Kingsley" ;
+        dc:identifier     "2020124" ;
+        dc:title          "Travels in West Africa" ;
+        :curatorInitials  "AP" .
