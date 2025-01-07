@@ -9,7 +9,7 @@ async function loadData(file) {
     // Return a Promise that resolves when the data is loaded
     return new Promise((resolve, reject) => {
         $.ajaxSetup({ cache: false });
-        $("#data").load(file, async function (responseTxt, statusTxt, xhr) {
+        $("#data").load(`data/${file}`, async function (responseTxt, statusTxt, xhr) {
             if (statusTxt == "success") {
 
                 const parser_for_graphs = new N3.Parser();
