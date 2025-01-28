@@ -1,5 +1,5 @@
-# LitHitsAPI
------------
+# LitHits API
+
 # Client-Side API Documentation
 
 ## Methods
