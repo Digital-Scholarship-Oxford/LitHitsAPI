@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LitHits</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body style="overflow: hidden;background-image: url('images/bg1.jpg');">
+
+    <div class="container">
+        <header class="d-flex justify-content-center py-3 border-bottom">
+            <img
+                src="https://lithits.web.ox.ac.uk/sites/default/files/styles/site_logo/public/styles/site_logo/public/lithits/site-logo/lit_hits_logo_black.png?itok=eVPjN_CF" />
+        </header>
+
+        <div class="row mt-2" style="background-image: url('images/bg2.jpg');">
+            <form id="frmLitHits" class="col-md-4 pt-2 pe-0">
+                <div class="overflow-x-auto" style="height: 75vh;">
+                    <div class="mb-3 border-bottom pb-3">
+                        <label for="rdoTime" class="form-label fs-2">How much time do you have?</label> <br />
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="rdo1" name="rdoTime" value="5" required>
+                            <label class="form-check-label" for="rdo1">5 MINS</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="rdo2" name="rdoTime" value="10" required>
+                            <label class="form-check-label" for="rdo2">10 MINS</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="rdo3" name="rdoTime" value="15" required>
+                            <label class="form-check-label" for="rdo3">15 MINS</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="rdo4" name="rdoTime" value="20" required>
+                            <label class="form-check-label" for="rdo4">+20 MINS</label>
+                        </div>
+                    </div>
+                    <div class="mb-3 border-bottom pb-3 d-none">
+                        <label for="rdoTime" class="form-label fs-2">What are you in the mood for?</label> <br />
+                        <div id="divMoodsCheckboxes">
+
+                        </div>
+                        <div>
+                            <button type="button" id="btnSurpriseMe" class="btn btn-primary d-none mt-2"
+                                onclick="SurpriseMe()">Surprise Me!</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button type="submit" id="btnSumit" class="btn btn-primary float-end d-none">Submit</button>
+
+            </form>
+            <div class="col-md-8 p-0">
+                <textarea class="form-control h-100" id="divText" readonly style="resize: none;">
+
+                </textarea>
+            </div>
+        </div>
+    </div>
+
+    <div id="data" style="display:none"></div>
+
+    <div class="modal fade" id="moreOption" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Good News! We have multiple reads. Please select one to Proceed!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="moreArticles">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="proceed()">Proceed</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Server Production Files -->
+    <!-- RDF Library -->
+    <script src="https://digital-scholarship-oxford.github.io/LitHitsAPI/js/n3.min.js"></script>
+    <script src="https://digital-scholarship-oxford.github.io/LitHitsAPI/js/comunica-browser.js"></script>
+
+    <!-- LitHitsAPI -->
+    <script src="https://digital-scholarship-oxford.github.io/LitHitsAPI/js/api.js"></script>
+
+    <!-- Testing Files -->
+    <!-- RDF Library -->
+    <!-- <script src="http://localhost:5501/js/n3.min.js"></script>
+    <script src="http://localhost:5501/js/comunica-browser.js"></script> -->
+
+    <!-- LitHitsAPI -->
+    <!-- <script src="http://localhost:5501/js/api.js"></script> -->
+
+    <script>
+
+        let itemsPerPage = 5;  // Number of tags to show per page
+        let currentPage = 1;    // Start at the first page
+        var tags = [];
+        const modal = new bootstrap.Modal('#moreOption');
+
+        (async () => {
+            await loadData('001_Master_Curation_Document.txt');
+            //console.log(keywords)
+        })();
+
+        $('input[name="rdoTime"]').change(async function () {
+            $('#divMoodsCheckboxes').parent().add('d-none')
+            $('#btnSurpriseMe').add('d-none')
+            $('#btnSumit').add('d-none')
+            $('#divMoodsCheckboxes').empty();
+
+            const duration = $('input[name="rdoTime"]:checked').val();
+            tags = await getAllTags(duration)
+            tags.sort();
+            if (tags.length > 0) {
+                itemsPerPage = 5;
+                currentPage = 1;
+                renderMoreTags(currentPage);
+
+                $('#divMoodsCheckboxes').parent().removeClass('d-none')
+                $('#btnSurpriseMe').removeClass('d-none')
+            }
+        });
+
+        function renderMoreTags(page) {
+            let chks = '';
+            let start = (page - 1) * itemsPerPage;
+            let end = start + itemsPerPage;
+            let tagsToShow = tags.slice(start, end);
+
+            tagsToShow.forEach((tag, index) => {
+                chks += `<div class="form-check">
+                    <input class="form-check-input chkMood" type="checkbox" id="chk${start + index}" value="${tag}" onclick="chkClicked(this)" />
+                    <label class="form-check-label text-uppercase" for="chk${start + index}">${tag}</label>
+                 </div>`;
+            });
+
+            $('#moreButton').remove();
+            // If we're at the last page, remove the "More..." button.
+            if (end < tags.length) {
+                chks += '<div id="moreButton"><button class="btn btn-sm btn-primary" onclick="loadMoreTags()">More...</button></div>';
+            }
+
+            $('#divMoodsCheckboxes').append(chks);
+        }
+
+        function loadMoreTags() {
+            currentPage++;
+            renderMoreTags(currentPage);
+        }
+
+        function chkClicked(ele) {
+            // Select all checkboxes that are checked
+            const selectedCheckboxes = $('.chkMood:checked');
+
+            // Get the count of selected checkboxes
+            const count = selectedCheckboxes.length;
+
+            if (count > 1) {
+                $('#btnSumit').removeClass('d-none')
+            }
+            else {
+                $('#btnSumit').addClass('d-none')
+            }
+        }
+
+        $('#frmLitHits').submit(async function (e) {
+            e.preventDefault();
+            const duration = $('input[name="rdoTime"]:checked').val();
+            const tags = $('.chkMood:checked').map(function () {
+                return $(this).val();
+            }).get(); // .get() converts the jQuery object to a regular array
+            //console.log(duration, tags)
+            let litHitIds = await getText(parseInt(duration), tags);
+            let text = '';
+            if (litHitIds.length > 0) {
+                let moreArticles = '';
+                for (let [index, id] of litHitIds.entries()) {
+                    let title = await getTitleById(id);  // Wait for the title from the database
+                    moreArticles += `<div class="form-check">
+                        <input class="form-check-input" type="radio" id="rdoMoreArticles${index}" name="rdoMoreArticles" value="${id}" /> 
+                        <label class="form-check-label" for="rdoMoreArticles${index}">
+                        ${title} 
+                        </label>
+                    </div>`;
+                }
+                $('#moreArticles').html(moreArticles);
+                modal.show();
+            }
+            else {
+                text = await getContentFromFileById(litHitIds[0]);
+                $('#divText').val(text);
+            }
+            //console.log(text);
+        });
+
+        async function proceed() {
+            let id = $('input[name="rdoMoreArticles"]:checked').val();
+            text = await getContentFromFileById(id);
+            $('#divText').val(text);
+            modal.hide();
+        }
+
+        async function SurpriseMe() {
+            const duration = $('input[name="rdoTime"]:checked').val();
+            let text = await getSurpriseText(parseInt(duration));
+            $('#divText').val(text);
+        }
+    </script>
+
+</body>
+
+</html>
