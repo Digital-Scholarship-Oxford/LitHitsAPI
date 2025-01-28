@@ -20,7 +20,7 @@
         <div class="row mt-2" style="background-image: url('images/bg2.jpg');">
             <form id="frmLitHits" class="col-md-4 pt-2 pe-0">
                 <div class="overflow-x-auto" style="height: 75vh;">
-                    <div class="mb-3 border-bottom pb-3">
+                    <div class="mb-3 border-bottom pb-3 d-none" id="divTimes">
                         <label for="rdoTime" class="form-label fs-2">How much time do you have?</label> <br />
                         <div class="form-check">
                             <input class="form-check-input" type="radio" id="rdo1" name="rdoTime" value="5" required>
@@ -115,6 +115,7 @@
 
         (async () => {
             await loadData('001_Master_Curation_Document.txt');
+            $('#divTimes').removeClass('d-none');
             //console.log(keywords)
         })();
 
