@@ -2,6 +2,14 @@
 
 # Client-Side API Documentation
 
+## Installation
+
+You need to add the following API link in your HTML file
+
+```
+<script src="https://digital-scholarship-oxford.github.io/LitHitsAPI/js/api.js"></script>
+```
+
 ## Methods
 
 ### `loadData(file)`
